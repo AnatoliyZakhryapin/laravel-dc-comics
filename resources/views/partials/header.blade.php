@@ -15,7 +15,7 @@
                         <a class="nav-link" href="{{ route('characters') }}">characters</a>
                     </li> --}}
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ route('comics') }}">comics</a>
+                        <a class="nav-link" href="{{ route('comics.index') }}">comics</a>
                     </li>
                     {{-- <li class="nav-item">
                         <a class="nav-link" href="{{ route('movies') }}">movies</a>
