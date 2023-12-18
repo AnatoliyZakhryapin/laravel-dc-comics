@@ -18,4 +18,9 @@ Route::get('/', function () {
     return view('index');
 })->name('home');
 
+
+/**
+ * CRUD Pastas
+ */
+
 Route::get('/comics', [ComicController::class, 'index'])->name('comics.index');
