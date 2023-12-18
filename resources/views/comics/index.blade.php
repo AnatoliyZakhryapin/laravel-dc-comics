@@ -4,8 +4,11 @@
     <section>
         <div class="container">
             <div class="row">
-                <div class="col">
+                <div class="col-auto me-auto">
                     <h1>Comics page content</h1>
+                </div>
+                <div class="col-auto">
+                    <a href="{{ route('comics.create') }}" class="btn btn-sm btn-primary">Nuovo comics </a>
                 </div>
             </div>
             <div class="row row-gap-5">
