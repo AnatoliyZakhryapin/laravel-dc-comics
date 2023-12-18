@@ -10,11 +10,15 @@
             </div>
             <div class="row row-gap-5">
                 @forelse ($comics as $comic)
-                    <div class="col-6">
+                    <div class="col-3">
                         <div class="card">
                             <img src="{{ $comic->thumb}}" class="card-img-top" alt="...">
                             <div class="card-body">
-                                <h5 class="card-title">{{ $comic->title }}</h5>
+                                <h5 class="card-title">
+                                    <a href="{{ route('comics.show', $comic) }}">
+                                        {{ $comic->title }}
+                                    </a>
+                                </h5>
                                 <p class="card-text">{{ $comic->description}}</p>
                             </div>
                             <ul class="list-group list-group-flush">
