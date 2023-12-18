@@ -18,7 +18,7 @@
 <body class="d-flex flex-column">
 
     {{-- header --}}
-    {{-- @include('partials.header') --}}
+    @include('partials.header')
 
     {{-- main content --}}
     <main class="flex-grow-1">
@@ -26,7 +26,7 @@
     </main>
 
     {{-- footer --}}
-    {{-- @include('partials.footer') --}}
+    @include('partials.footer')
 
 </body>
 
