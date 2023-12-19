@@ -16,8 +16,10 @@
                             <li class="list-group-item">Series: {{ $comic->series}}</li>
                             <li class="list-group-item">Sale date: {{ $comic->sale_date}}</li>
                             <li class="list-group-item">Type: {{ $comic->type}}</li>
-                            
                         </ul>
+                        <div class="card-body">
+                            <a href="{{ route('comics.edit', $comic)}}" class="btn btn-primary">Edit</a>
+                        </div>
                     </div>
                 </div>
             </div>
