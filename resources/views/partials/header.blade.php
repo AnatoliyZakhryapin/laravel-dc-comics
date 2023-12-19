@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-auto">
                 <div class="logo">
-                    Logo
+                    <img src="" alt="">
                 </div>
             </div>
             <div class="col d-flex justify-content-center">
