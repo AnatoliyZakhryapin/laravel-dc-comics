@@ -31,17 +31,8 @@
                                 <li class="list-group-item">Type: {{ $comic->type}}</li>
                             </ul>
                             <div class="card-body">
-                                <form 
-                                    action="{{ route('comics.destroy', $comic)}}"
-                                    method="POST">
-
-                                        @csrf
-
-                                        @method('delete')
-
-                                    <input type="submit" value="Delete">
-                                </form>
-                            </div>
+                               @include('modals.destroy_comic');
+                            </div>                       
                         </div>
                     </div>
                 @empty
